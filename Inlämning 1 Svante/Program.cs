@@ -12,6 +12,8 @@ namespace Inlämning_1_Svante
             double termOne; double termTwo; double termThree; double summa = 0;
             List<double> total = new List<double>();
 
+            Console.Title = "Svantes Miniräknare";
+
 
 
 
@@ -208,7 +210,7 @@ namespace Inlämning_1_Svante
 
             }
             Console.WriteLine(total.Sum());
-            Console.WriteLine("Antal försök " + (total.Count + +1));
+            Console.WriteLine("Antal försök " + (total.Count));
 
             // skriv ut totalen och säg hejdå
             //Console.WriteLine($"totalen av dina uräkningar är {total.GetValue}");
@@ -219,13 +221,13 @@ namespace Inlämning_1_Svante
             Be användaren att ange ett par operatorer [x]
             Be sedan användaren om ett par termer att använda operatorerna på [x]
             Visa sen ekvationen och resultatet av beräkningen. [x]
-            Resultatet skall sen läggas till i en array
+            Resultatet skall sen läggas till i en array[x]
             Om summan är mindre än 100 skriv ut; ”Less then a hundred”[x]
             Om summan är mer än 100 skriv ut; ”More then a hundred”[x]
             Om summan är lika med 100 skriv ut; ”Cool, now you have a hundred, clap clap”[x]
-            Programmets titel i konsolen skall vara modifierat https://www.geeksforgeeks.org/c-sharp-how-to-change-title-of-the-console/
-            Programmet skall upprepa tills användaren själv väljer att avsluta
-            Vid avslut skall summan av alla resultat skrivas ut
+            Programmets titel i konsolen skall vara modifierat[x]
+            Programmet skall upprepa tills användaren själv väljer att avsluta[x]
+            Vid avslut skall summan av alla resultat skrivas ut[x]
             Använd Git för att verisionshantera koden och ladda upp git-repot till din GitHub [x]
             
             Programmet måste inte vara felfritt eller buggfritt. Framför allt är det verisionshanteringen som testas. Om två operatorer är för svårt, börja med en och sen lägg på fler om du kan.
