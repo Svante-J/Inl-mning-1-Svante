@@ -201,7 +201,7 @@ namespace Inlämning_1_Svante
                 {
                     Console.WriteLine("Väldigt tufft, värdet är hundra!");
                 }
-                // addera summa till array
+                // addera summa till arraylist
                 total.Add(summa);
                
                 Console.WriteLine($"vill du köra igen tryck [G]\n Vill du avsluta tryck [Q]");
