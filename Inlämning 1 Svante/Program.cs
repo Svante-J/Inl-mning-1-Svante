@@ -195,7 +195,7 @@ namespace Inlämning_1_Svante
                 }
                 else if (summa > 100)
                 {
-                    Console.WriteLine("Värdet är mindre än hundra!");
+                    Console.WriteLine("Värdet är mer än hundra!!");
                 }
                 else if (summa == 100)
                 {
